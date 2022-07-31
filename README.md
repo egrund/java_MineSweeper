@@ -31,17 +31,14 @@ java mineSweeper.main.MineSweeper
 ```
 Which creates a default game with 10x10 fields and 10 bombs.
 
-3. Or try your own combinations of sizes and bombs by using 
-```
-java mineSweeper.main.MineSweeper (x_dim y_dim (number_bombs))
-```
-this could for example result in
+3. Or try your own combinations of sizes and bombs by using `java mineSweeper.main.MineSweeper (x_dim y_dim (number_bombs))`.<br />
+This could for example result in
 ```
 java mineSweeper.main.MineSweeper 5 15
 ```
-which creates a game with 5x15 fields and 5*15 / 10 = 7.5 ~ 7 bombs.<br />
+which creates a game with 5x15 fields and 5*15 / 10 = 7.5 ~ 7 bombs,<br />
 or in
 ```
 java mineSweeper.main.MineSweeper 10 15 15
 ```
-Creates a game with 10x15 fields and 15 bombs
+which creates a game with 10x15 fields and 15 bombs
