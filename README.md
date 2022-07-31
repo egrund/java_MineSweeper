@@ -12,8 +12,8 @@ java mineSweeper.main.MineSweeper
 * If you think there is a bomb in one field, you can use the *right mouse button* to mark it. When it is marked it cannot be uncovered, but you can remove the mark by clicking the *right mouse button* again. 
 If you uncovered all the fields without bombs, you win the game. 
 <img src="Images/Gameplay.jpg" align="left" alt="A screenshot of playing the game"/>
-The View of a running game with 10x15 fields and 15 bombs. Marked fields have a "!".
 <br clear="left"/>
+Picture 1: The View of a running game with 10x15 fields and 15 bombs. Marked fields have a "!".
 
 ## Model-View-Controller-Pattern and Observer-Pattern
 I implemented the game using the _Model-View-Controller-Pattern_. 
@@ -31,7 +31,8 @@ java mineSweeper.main.MineSweeper
 ```
 Which creates a default game with 10x10 fields and 10 bombs.
 
-3. Or try your own combinations of sizes and bombs by using `java mineSweeper.main.MineSweeper (x_dim y_dim (number_bombs))`.<br />
+3. Or try your own combinations of sizes and bombs by using <br />
+`java mineSweeper.main.MineSweeper (x_dim y_dim (number_bombs))`.<br />
 This could for example result in
 ```
 java mineSweeper.main.MineSweeper 5 15
