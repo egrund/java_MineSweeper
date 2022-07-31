@@ -19,12 +19,21 @@ public class MineSweeper {
 		
 		// process input
 		int[] size = new int[2];
-		size[0] = Integer.valueOf(args[0]);
-		size[1] = Integer.valueOf(args[1]);
+		try {
+			size[0] = Integer.valueOf(args[0]);
+		}catch(ArrayIndexOutOfBoundsException e) {
+			size[0] = 10;
+		}
+		try {
+			size[1] = Integer.valueOf(args[1]);
+		}catch(ArrayIndexOutOfBoundsException e) {
+			size[1] = 10;
+		}
+
 		int number_bombs;
 		try {
 			number_bombs = Integer.valueOf(args[2]);
-		}catch(ArrayIndexOutOfBoundsException e) { // if no input for number of bombs
+		}catch(ArrayIndexOutOfBoundsException e) { 
 			number_bombs = (int) size[0]*size[1] / 10;
 		}
 		
