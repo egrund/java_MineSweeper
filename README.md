@@ -42,10 +42,6 @@ java mineSweeper.main.MineSweeper 5 15
 Which reates a game with 5x15 fields and 5*15 / 10 = 7.5 ~ 7 bombs.<br />
 Or: 
 ```
-java mineSweeper.main.MineSweeper 5 15 10
+java mineSweeper.main.MineSweeper 10 15 15
 ```
-Creates a game with 5x15 fields and 10 bombs
-3. try your own combinations of sizes and bombs executing
-```
-java mineSweeper.main.MineSweeper x_dim y_dim number_bombs
-```
+Creates a game with 10x15 fields and 15 bombs
