@@ -1,7 +1,7 @@
 # java_MineSweeper
 This is an implementation of a MineSweeper in java created for the lecture "Einführung in die Software-Entwicklung".<br />
 Author: Eosandra Grund <br />
-Date last modified: 29.07.2022 <br />
+Date last modified: 31.07.2022 <br />
 Play by navigating to the [bin](bin) folder and executing:
 ```
 java mineSweeper.main.MineSweeper
@@ -10,7 +10,7 @@ java mineSweeper.main.MineSweeper
 ## Game Mechanics 
 * You can uncover a field using the *left mouse button*, it then shows the amount of neighboring bombs. If it was a bomb you lose and the game ends. If it does not have a neighboring bomb, all the neighbors are uncovered as well (recursively). 
 * If you think there is a bomb in one field, you can use the *right mouse button* to mark it. When it is marked it cannot be uncovered, but you can remove the mark by clicking the *right mouse button* again. 
-If you uncovered all the fields without bombs, you won the game. 
+If you uncovered all the fields without bombs, you win the game. 
 <img src="Images/Gameplay.jpg" align="left" alt="A screenshot of playing the game"/>
 The View of a running game with 10x15 fields and 15 bombs. Marked fields have a "!".
 <br clear="left"/>
