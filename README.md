@@ -2,7 +2,7 @@
 This is an implementation of a MineSweeper in java created for the lecture "Einführung in die Software-Entwicklung".<br />
 Author: Eosandra Grund <br />
 Date last modified: 29.07.2022 <br />
-Play by navigating to the [bin](mineSweeper/bin) folder and executing:
+Play by navigating to the [bin](bin) folder and executing:
 ```
 java mineSweeper.main.MineSweeper
 ```
@@ -24,7 +24,7 @@ change the view depending on the changes in the game.
 The _Observer-Pattern_ is implemented using _java.beans.PropertyChangeSupport_.
 
 ## Execution
-1. Navigate to the bin folder. 
+1. Navigate to the [bin](bin) folder. 
 2. Play by executing: 
 ```
 java mineSweeper.main.MineSweeper
