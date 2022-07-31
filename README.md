@@ -8,11 +8,11 @@ java mineSweeper.main.MineSweeper
 ```
 
 ## Game Mechanics 
-* You can uncover a field using the *left mouse button*, it then shows the amount of neighboring bombs. If it was a bomb you loose and the game ends. If it does not have a neighboring bomb, all the neighbors are uncovered as well (rekursively). 
-* If you think there is a bomb in one field you can use the *right mouse button* to mark it. When it is marked it cannot be uncovered, but you can remove the mark by clicking the right mouse button again. 
+* You can uncover a field using the *left mouse button*, it then shows the amount of neighboring bombs. If it was a bomb you lose and the game ends. If it does not have a neighboring bomb, all the neighbors are uncovered as well (recursively). 
+* If you think there is a bomb in one field, you can use the *right mouse button* to mark it. When it is marked it cannot be uncovered, but you can remove the mark by clicking the *right mouse button* again. 
 If you uncovered all the fields without bombs, you won the game. 
 <img src="Images/Gameplay.jpg" align="left" alt="A screenshot of playing the game"/>
-The View of a running game with 5x15 fields and 10 bombs. Marked fields have a "!".
+The View of a running game with 10x15 fields and 15 bombs. Marked fields have a "!".
 <br clear="left"/>
 
 ## Model-View-Controller-Pattern and Observer-Pattern
@@ -39,8 +39,8 @@ this could for example result in
 ```
 java mineSweeper.main.MineSweeper 5 15
 ```
-Which reates a game with 5x15 fields and 5*15 / 10 = 7.5 ~ 7 bombs.<br />
-Or: 
+which creates a game with 5x15 fields and 5*15 / 10 = 7.5 ~ 7 bombs.<br />
+or in
 ```
 java mineSweeper.main.MineSweeper 10 15 15
 ```
